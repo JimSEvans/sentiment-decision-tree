@@ -29,13 +29,6 @@ trim <- function (x) gsub("^\\s+|\\s+$", "", x)
 
 all_data <- load_data(".")
 
-# all_data <- read.csv(
-#   "160812-pew-inspired.splits_1.xlsx-labels.txt",
-#   sep="\t",
-#   quote="",
-#   header=FALSE,
-#   colClasses = c("factor", "character"),
-#   col.names = c("label", "tweet_text"))
 
 #note: the same tweets sometimes were labeled independently by both 
 # experts ("duplicate" tweets) to measure inter-annotater agreement
